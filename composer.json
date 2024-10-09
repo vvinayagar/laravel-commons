@@ -1,0 +1,25 @@
+{
+  "name": "trisquare-labs/laravel-commons",
+  "description": "Common internal functions for laravel in TriSquare",
+  "type": "library",
+  "license": "Proprietary",
+  "authors": [
+    {
+      "name": "Kalai",
+      "email": "kalai@trisquare.com.my"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Commons\\": ""
+    }
+  },
+  "require-dev": {
+    "illuminate/http": "^v9.40",
+    "illuminate/support": "^v9.40"
+  },
+  "require": {
+    "spatie/eloquent-sortable": "^4.0",
+    "nesbot/carbon": "^2.62.0"
+  }
+}
